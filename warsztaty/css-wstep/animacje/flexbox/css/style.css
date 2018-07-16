@@ -1,0 +1,17 @@
+body {
+    background-color: gold;
+}
+.flex-item {
+    color: white;
+    background-color: orange;
+    flex-basis: 28%
+}
+.flex-item:nth-last-of-type(odd) {
+    background-color: cadetblue;
+}
+#container {
+    display: flex;
+    background-color: red;
+    flex-wrap:  wrap-reverse;
+    
+}
