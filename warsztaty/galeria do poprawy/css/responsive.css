@@ -43,9 +43,19 @@ figure img{
 }
 @media (max-width: 768px) {
     figure {
-        width: 100%;
+        width: 90%;
     }
     #gallery {
         100%;
+    }
+}
+@media (max-width: 480px) {
+    figure {
+        width: 100%;
+        margin:0;
+    }
+    #gallery {
+        100%;
+        margin: 0;
     }
 }
