@@ -13,7 +13,7 @@ h2 {
 }
 
 #gallery {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -53,9 +53,13 @@ figure img{
     figure {
         width: 100%;
         margin:0;
+        padding: 0px;
+        border: 0px;
     }
     #gallery {
         100%;
         margin: 0;
+        padding: 0px;
+        border: 0px;
     }
 }
