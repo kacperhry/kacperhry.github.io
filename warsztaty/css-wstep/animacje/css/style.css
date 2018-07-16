@@ -2,3 +2,32 @@ body {
     background-color: red;
     color: white;
 }
+div {
+    height: 300px;
+    transform: rotate(10deg)
+}
+#cocacola {
+    width: 80%;
+}
+
+#translate {
+    transform: translate(90px, 60px);
+    border:5px solid black;
+}
+
+#scale {
+    transform:scale(0.5);
+}
+@keyframes resize {
+        0%, 100% {
+            width: 100%;
+        }
+        50% {
+            width: 50%;
+        }
+    }
+#animation {
+    animation-name: resize;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
