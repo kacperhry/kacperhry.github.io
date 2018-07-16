@@ -1,0 +1,38 @@
+body{
+    background-color: lightgray;
+}
+    
+    
+*{
+    color: red;
+}
+li>a{
+    color: blue;
+}
+li{
+    color :lawngreen;
+    font-size: 30px;
+}
+header>h1{
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin:0 auto;
+    font-family: inherit;
+}
+ul{
+    list-style: none;
+}
+.list-item::before{
+    content: '*';
+}
+.list-item a:hover{
+    color: yellowgreen;
+}
+input:focus{
+    border: 2px solid red;
+}
+ul li:first-child,
+ul li:last-child{
+    color: blueviolet;
+}
