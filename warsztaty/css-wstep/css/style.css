@@ -1,5 +1,4 @@
 body {
-    background-image: url("../img/logo.png");
-    background-repeat: no-repeat;
-    
+    background: lime url("../img/logo.png") center bottom no-repeat scroll;
 }
+    
