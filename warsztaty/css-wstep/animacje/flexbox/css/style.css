@@ -4,7 +4,7 @@ body {
 .flex-item {
     color: white;
     background-color: orange;
-    flex-basis: 28%
+    flex-basis: 25%
 }
 .flex-item:nth-last-of-type(odd) {
     background-color: cadetblue;
@@ -12,6 +12,6 @@ body {
 #container {
     display: flex;
     background-color: red;
-    flex-wrap:  wrap-reverse;
+    flex-wrap:  wrap;
     
 }
