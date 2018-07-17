@@ -165,12 +165,26 @@ img.photo {
 #portfolio h1 span {
     color: limegreen;
 }
-#portfolio #photo{
+#portfolio #photo {
+    background-repeat: no-repeat;
     font-size: 0;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    height: 50%;
+
 }
-#portfolio #photo img {
-    width: 33.333333%
+#portfolio #photo #bg1  {
+    background-image: url(../img/portfolio1.jpg);
+}
+#portfolio #photo #bg2 {
+    background-image: url(../img/portfolio2.jpg);
+}
+#portfolio #photo #bg3 {
+    background-image: url(../img/portfolio4.jpg);
+}
+#portfolio #photo .bg {
+    height: 100%;
+    width: 33.33333%;
+    display: inline-block;
+}
+#portfolio #photo .bg p {
+    font-size: 24px;
 }
