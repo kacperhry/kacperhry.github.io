@@ -7,8 +7,8 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,400|Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
 </head>
 
 <body>
@@ -16,10 +16,10 @@
         <nav id="main-nav">
             <ul>
                 <li class="itemnav">
-                    <a href="">o mnie</a>
+                    <a href="#aboutme">o mnie</a>
                 </li>
                 <li class="itemnav">
-                    <a href="">umiejętności</a>
+                    <a href="#skills">umiejętności</a>
                 </li>
                 <li class="itemnav">
                     <a href="">portfolio</a>
@@ -38,13 +38,35 @@
     </header>
 
     <section id="aboutme">
-        <img src="img/jan-nowak.jpg" alt="Jan Nowak">
-        <h1 class="about"> O
-            <spac>mnie</spac>
-        </h1>
-        <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum dicta officiis recusandae, alias libero tempora? Deserunt earum, quae itaque reprehenderit molestias delectus praesentium culpa quis. Fugiat illum quas eius beatae, ea vitae magni reprehenderit cupiditate placeat iure incidunt eaque debitis, similique provident nostrum culpa neque adipisci ab eveniet? Optio illo, reiciendis unde nesciunt ipsam inventore nihil magni veniam nam qui dignissimos. Distinctio error blanditiis recusandae eius eos, tenetur saepe asperiores dolorem voluptates explicabo praesentium, facere dolor quod cupiditate rem sunt cum, reiciendis consectetur deserunt consequatur est quo? Ex vero deleniti eum quidem sint, animi, earum voluptatum perferendis omnis possimus quo.</p>
-        </article>
+        <img class="photo" src="img/jan-nowak.jpg" alt="Jan Nowak">
+        <div id="content">
+            <h1 class="about"> O
+                <span>mnie</span>
+            </h1>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum dicta officiis recusandae, alias libero tempora? Deserunt earum, quae itaque reprehenderit molestias delectus praesentium culpa quis. Fugiat illum quas eius beatae, ea vitae magni reprehenderit cupiditate placeat iure incidunt eaque debitis, similique provident nostrum culpa neque adipisci ab eveniet? Optio illo, reiciendis unde nesciunt ipsam inventore nihil magni veniam nam qui dignissimos. Distinctio error blanditiis recusandae eius eos, tenetur saepe asperiores dolorem voluptates explicabo praesentium, facere dolor quod cupiditate rem sunt cum, reiciendis consectetur deserunt consequatur est quo? Ex vero deleniti eum quidem sint, animi, earum voluptatum perferendis omnis possimus quo.</p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <div id="container">
+            <h1>
+                Moje <span>umiejętności</span>
+            </h1>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi atque similique culpa excepturi placeat libero, ratione ullam quam sunt obcaecati tempora sit provident ab, non doloribus, illo soluta. Deserunt perferendis modi officiis voluptatem dolorem minus voluptatum, incidunt, aliquid harum, facilis unde. Dolorum excepturi magnam ex officiis quasi non veritatis soluta.
+                </p>
+
+                <div class="photos">
+                    <p><img src="icons/html5.png" alt="html5"> <br>HTML5</p>
+                    <p><img src="icons/css3.png" alt="CSS3"> <br>CSS3</p>
+                    <p> <img src="icons/js.png" alt="JS"> <br>Java Script</p>
+                    <p><img src="icons/jquery.png" alt="JQuery"><br> JQuery</p>
+                </div>
+            </article>
+        </div>
+
     </section>
     <script src="js/main.js"></script>
 </body>
