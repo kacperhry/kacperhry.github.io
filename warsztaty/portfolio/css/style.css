@@ -123,9 +123,7 @@ img.photo {
     height: 80vh;
 }
 
-#skills #container {
-    
-}
+#skills #container {}
 
 #skills #container h1 {
     text-align: center;
@@ -155,22 +153,25 @@ img.photo {
 
 /* portfolio */
 
-section#portfolio  div#photo {
+section#portfolio div#photo {
     font-size: 0;
     width: 100%;
     height: 300px
-        
 }
-section#portfolio  div#photo  div#bgphoto1 {
+
+section#portfolio div#photo div#bgphoto1 {
     background-image: url("../img/portfolio1.jpg");
 }
-section#portfolio  div#photo  div#bgphoto2 {
+
+section#portfolio div#photo div#bgphoto2 {
     background-image: url("../img/portfolio2.jpg");
 }
-section#portfolio  div#photo  div#bgphoto3 {
+
+section#portfolio div#photo div#bgphoto3 {
     background-image: url("../img/portfolio3.jpg");
 }
-section#portfolio  div#photo  div.bgphotos {
+
+section#portfolio div#photo div.bgphotos {
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,18 +180,78 @@ section#portfolio  div#photo  div.bgphotos {
     position: relative;
     display: inline-block;
 }
-section#portfolio  div#photo  div.bgphotos  div.mask {
+
+section#portfolio div#photo div.bgphotos div.mask {
     width: 100%;
-	height: 100%;
+    height: 100%;
     top: 0;
-    background-color: rgba(77,25,45,0.5);    
+    background-color: rgba(77, 25, 45, 0.5);
     opacity: 0;
     position: absolute;
     transition: all 0.5s ease-out;
 }
-section#portfolio  div#photo  div.bgphotos  div.mask:hover {
+
+section#portfolio div#photo div.bgphotos div.mask:hover {
     opacity: 1;
 }
-section#portfolio  div#photo  div.bgphotos  div.mask > p {
+
+section#portfolio div#photo div.bgphotos div.mask > p {
     font-size: 15px;
     color: #fff;
+}
+
+/*    koniec portfolio    */
+
+/*    kontakt poczatek    */
+
+#contact {
+    background-color: #213b50;
+}
+
+
+#contact h2 {
+    
+}
+
+#contact #adress {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+
+}
+
+#contact #adress .city {
+    
+}
+
+#contact #adress .number {
+    
+}
+
+#contact #adress .fonty {
+    
+}
+
+#contact #adress #formularz {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+#contact #adress #formularz input {
+    display: block;
+    margin-top: 2em;
+    width: 80%;
+    border-color: #213b50 ;
+    padding: 0;
+}
+#contact #adress #formularz textarea {
+    display: block;
+    margin-top: 2em;
+    width: 80%;
+    height: 5em;
+    border-color: #213b50 ;
+    padding: 0;
+}
+#contact #adress #formularz input[submit] {
+    background-color: limegreen;
+}
