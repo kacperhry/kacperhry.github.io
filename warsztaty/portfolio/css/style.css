@@ -13,11 +13,14 @@
 /*nawigacja start*/
 
 #main-nav ul {
+    width: 100%;
     z-index: 2;
     margin: 0;
     position: fixed;
     right: 4%;
     top: 3%;
+    text-align: right;
+    background-color: rgba(222, 222, 222, 0.4)
 }
 
 #main-nav ul li {
@@ -26,7 +29,7 @@
 }
 
 #main-nav ul li.itemnav a {
-    color: green;
+    color: white;
     text-decoration-line: none;
 }
 
@@ -81,7 +84,6 @@
 }
 
 img.photo {
-    width: 23%;
     height: 50%;
     margin: 0;
     position: absolute;
@@ -112,14 +114,13 @@ img.photo {
     padding: 1em;
 }
 
-/* koniec o mnie czas o was */
+/* koniec o mnie */
 
 /* umiejetnosci */
 
 #skills {
     width: 100%;
     height: 80vh;
-    border-bottom: 1px solid black;
 }
 
 #skills #container {
@@ -153,38 +154,43 @@ img.photo {
 /* umiejetności koniec */
 
 /* portfolio */
-#portfolio {
-    width: 100%;
-    height: 80vh;
-    border-bottom: 1px solid black;
-}
-#portfolio h1 {
-    text-align: center;
-    margin-bottom: 4em
-}
-#portfolio h1 span {
-    color: limegreen;
-}
-#portfolio #photo {
-    background-repeat: no-repeat;
-    font-size: 0;
-    height: 50%;
 
+section#portfolio  div#photo {
+    font-size: 0;
+    width: 100%;
+    height: 300px
+        
 }
-#portfolio #photo #bg1  {
-    background-image: url(../img/portfolio1.jpg);
+section#portfolio  div#photo  div#bgphoto1 {
+    background-image: url("../img/portfolio1.jpg");
 }
-#portfolio #photo #bg2 {
-    background-image: url(../img/portfolio2.jpg);
+section#portfolio  div#photo  div#bgphoto2 {
+    background-image: url("../img/portfolio2.jpg");
 }
-#portfolio #photo #bg3 {
-    background-image: url(../img/portfolio4.jpg);
+section#portfolio  div#photo  div#bgphoto3 {
+    background-image: url("../img/portfolio3.jpg");
 }
-#portfolio #photo .bg {
-    height: 100%;
-    width: 33.33333%;
+section#portfolio  div#photo  div.bgphotos {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
+    height: 350px;
+    position: relative;
     display: inline-block;
 }
-#portfolio #photo .bg p {
-    font-size: 24px;
+section#portfolio  div#photo  div.bgphotos  div.mask {
+    width: 100%;
+	height: 100%;
+    top: 0;
+    background-color: rgba(77,25,45,0.5);    
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease-out;
 }
+section#portfolio  div#photo  div.bgphotos  div.mask:hover {
+    opacity: 1;
+}
+section#portfolio  div#photo  div.bgphotos  div.mask > p {
+    font-size: 15px;
+    color: #fff;
