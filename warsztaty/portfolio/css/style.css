@@ -155,8 +155,6 @@ img.photo {
 
 section#portfolio div#photo {
     font-size: 0;
-    width: 100%;
-    height: 300px
 }
 
 section#portfolio div#photo div#bgphoto1 {
@@ -206,52 +204,101 @@ section#portfolio div#photo div.bgphotos div.mask > p {
 
 #contact {
     background-color: #213b50;
+    color: #fff;
+    padding: 1em;
 }
 
 
 #contact h2 {
-    
+    margin: 0;
+    font-weight: 100;
+    font-size: 3em
+}
+#contact h2 span {
+    color: limegreen;
+    font-weight: 700;
 }
 
 #contact #adress {
     width: 100%;
     height: 70vh;
     position: relative;
-
 }
 
 #contact #adress .city {
     
 }
 
-#contact #adress .number {
-    
+#contact #adress .number a {
+    color: limegreen;
+}
+#contact #adress .fonty a{
+
+}
+#contact #adress .fonty a i {
+    font-size: 3em;
+    margin-right: 10px;
 }
 
-#contact #adress .fonty {
-    
+.clear {
+    clear: both;
 }
 
 #contact #adress #formularz {
+    color: #fff;
     position: absolute;
     right: 0;
     width: 50%;
+    top: 5em
 }
+
 #contact #adress #formularz input {
+    color: #fff;
+    border: 0;
+    background-color: #214460;
     display: block;
     margin-top: 2em;
     width: 80%;
-    border-color: #213b50 ;
     padding: 0;
 }
+
 #contact #adress #formularz textarea {
+    color: #fff;
+    background-color: #214460;
     display: block;
     margin-top: 2em;
     width: 80%;
     height: 5em;
-    border-color: #213b50 ;
+    border-color: #213b50;
     padding: 0;
 }
-#contact #adress #formularz input[submit] {
+
+#contact #adress #formularz input[type="submit"] {
     background-color: limegreen;
+    width: 20%;
+    height: 3em;
+    color: white;
+    font-weight: 900;
+    color: #fff;
+
 }
+
+
+/* koniec kontakt */
+
+
+/*footer*/
+
+footer {
+    width: 100%;
+    height: 2em;
+    background-color: #1e2b36;
+}
+footer .foot {
+    margin: 0;
+}
+footer .foot p {
+    margin: 0;
+}
+
+/*koniec footer*/
