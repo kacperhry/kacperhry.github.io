@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+#background {
+    height: 100vh;
+    background-image: url(../img/skyvan.jpg);
+    background-position: 0 0;
+}
+
+
+
+#first {
+    background-color: green;
+    width: 500px;
+    height: 300px;
+}
+
+#animacja {
+    background-color: lime;
+    height: 300px;
+}

@@ -1,0 +1,12 @@
+* {
+    background-color: limegreen;
+}
+input {
+    background-color: skyblue;
+    color: red;
+    width: 100px;
+    height: 50px;
+}
+input:hover {
+    background-color: black;
+}

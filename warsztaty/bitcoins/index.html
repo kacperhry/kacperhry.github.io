@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h2>Aktualny kurs PLN do BiCoin</h2>
+   <h3>Kupno</h3>
+   <span id="buy-price"></span> <i class="fa fa-minus-square" id="buy-arrow"></i><h3>Sprzedaż</h3>
+   <span id="sell-price"></span> <i class="fa fa-minus-square" id="sell-arrow"></i>
+   
+   <div id="control-buttons">
+       <h4>Odśweżaj kurs co:</h4>
+       <button value="5000" class="control-button">5 sekund</button>
+       <button value="10000" class="control-button">10 sekund</button>
+       <button value="30000" class="control-button">30 sekund</button>
+       <button value="60000" class="control-button">60 sekund</button>
+       <p>Odświeżanie co: <span id="refresh">5 sekund</span></p>
+   </div>
+   
+   
+   
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
